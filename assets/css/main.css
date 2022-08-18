@@ -4,7 +4,7 @@
 :root{
     --light-color: #fff;
     --light-color-alt: #afb6cd;
-    --primary-background-color: #131417;
+    --primary-background-color: #121213;
     --secondary-background-color: #252830;
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
@@ -253,6 +253,32 @@ body.light-theme{
 .search-form-container.activated{
     opacity: 1;
     transform: scale(1);
+}
+/* Home Page */
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.homepage-title{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homepage-slogan{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: MedievalSharp;
 }
 /* Featured articles */
 
